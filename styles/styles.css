@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1277px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* upper header  */
+/* nega boder padding olmadi?
+ */
+.upperheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 28px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  .avion {
+    color: rgba(34, 32, 46, 1);
+    text-decoration: none;
+    font-size: 24px;
+  }
+}
+
+nav{
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 28px;
+  gap: 44px;
+  text-align: center;
+  justify-content: center;
+
+  li,
+  a {
+    text-decoration: none;
+
+    color: rgba(114, 110, 141, 1);
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  ul li {
+    list-style-type: none;
+  }
+  a:hover {
+    color: rgb(34, 34, 34);
+  }
+}}
+
+/* hero card */
+.hero_section {
+  background-size: cover;
+  background-image: url(/images/razmery-d-p-1_guetzli.jpg);
+  height: 740px;
+  background-repeat: no-repeat;
+}
+
+.hero_container {
+  padding: 130px;
+  margin-left: auto;
+}
+.div_card {
+  background-color: white;
+  width: 630px;
+  height: 444px;
+  padding: 48px 61px 0 56px;
+  margin-left: auto;
+  h1 {
+    color: rgba(34, 32, 46, 1);
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  p {
+    color: rgba(91, 86, 118, 1);
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 157px;
+  }
+}
+.button {
+  margin-bottom: 46px;
+  button {
+    width: 170px;
+    height: 56px;
+    padding: 16px 32px;
+    background-color: rgba(249, 249, 249, 1);
+    border: none;
+  }
+}
+/* Here is section_collection */
+.collection_card {
+  width: 305px;
+  height: 244px;
+  background-color: rgba(249, 249, 249, 1);
+  padding: 48px;
+  h1 {
+    font-size: 20px;
+    margin: 12px 0;
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.brand {
+  margin-top: 80px;
+  margin-bottom: 36px;
+  text-align: center;
+}
+.collection {
+  margin-bottom: 110px;
+  display: flex;
+  gap: 22px;
+}
+.advertise {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.wrapper_two {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 60px;
+}
+.wrapper_this {
+  width: 634px;
+  height: 478px;
+  background-color: rgba(42, 37, 75, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 64px 75px;
+  color: rgba(255, 255, 255, 1);
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  button {
+    margin-top: 205px;
+    padding: 16px 32px;
+    width: 170px;
+    height: 56px;
+    background-color: rgba(249, 249, 249, 0.15);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+}
+.brand_picture {
+  background-image: url(/images/Image\ Block.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  user-select: none;
+}
+
+.upfooter {
+  background-image: url(/images/pangpicture.webp);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 97px 0 86px 0;
+ 
+}
+.upfooter_text {
+  text-align: center;
+  /* display: flex; */
+ /* flex-direction: column; */
+ /* align-items: center; */
+}
+.serach{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  svg{
+    width: 16px;
+    display: flex;
+    align-items: center;
+  }
+}
+.one{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
+}
+.upfooter form{
+  width: 472px;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 40px;
+
+  input{
+    width: 354px;
+    padding: 17px 0 17px 32px;
+    
+  }
+button{
+  width: calc(100% - 354px);
+  padding-top: 16px;
+  padding-bottom: 16px;
+background-color: rgba(42, 37, 75, 1); 
+color: white; 
+}
+}
+
+.footer_menu{
+flex-direction: column;
+
+}
+footer{
+  margin-bottom: 200px;
+  background-color: rgba(42, 37, 75, 1);
+  color: white;
+  padding-top: 58px;
+  padding-bottom: 25px;
+  a{
+    color: white;
+
+  }
+}
+.wrapper_that{
+  display: flex;
+  padding-bottom: 48px;
+  gap:125px
+}
+
+.footer_icons{
+  width: 24px;
+}
+.form_wrapper{
+  form{
+    width: 627px;
+    
+    display: flex;
+  }
+  input{
+    width:509px;
+    padding:17px 0 17px 32px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+  }
+  button{
+    width: calc(100% - 509px);
+    border: none;
+  }
+}
+.under_footer{
+  border-top: 2px solid rgba(78, 77, 147, 1);
+  padding-top:24;
+}
